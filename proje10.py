@@ -67,11 +67,7 @@ mp_holistic = mp.solutions.holistic
 HOLISTIC = mp_holistic.Holistic(
     model_complexity=0,
     min_detection_confidence=0.3,
-    min_tracking_confidence=0.3,
-    # point these to your bundled files:
-    pose_landmark_model_path=os.path.join("models","pose_landmark_lite.tflite"),
-    face_landmark_model_path=os.path.join("models","face_landmark_with_attention.tflite"),
-    hand_landmark_model_path=os.path.join("models","hand_landmark_lite.tflite"),
+    min_tracking_confidence=0.3
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
