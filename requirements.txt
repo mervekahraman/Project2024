@@ -63,7 +63,6 @@ pandas==2.2.3
 pillow==11.0.0
 protobuf==4.25.5
 pyarrow==18.1.0
-PyAudio==0.2.14
 pycparser==2.22
 pydeck==0.9.1
 pyee==12.1.1
