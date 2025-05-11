@@ -191,7 +191,7 @@ def main():
     st.sidebar.header("Settings")
     tsl_path    = st.sidebar.text_input(
         "TSL model path",
-        value="/Users/mervekahraman/Desktop/Bitirme_projesi/tsl_simple_model_v5.keras"
+        value="tsl_simple_model_v5.keras"
     )
     frame_skip  = st.sidebar.slider("Frame Skip", 1,5,2)
     conf_thresh = st.sidebar.slider("Confidence Threshold", 0.1,0.9,0.4)
